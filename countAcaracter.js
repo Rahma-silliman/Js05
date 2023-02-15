@@ -4,5 +4,5 @@ let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
    var count = sentence.split('a').length - 1;
    return count
  };
-console.log(" Le nombre d'occurrence de 'a' est:" countAcaracter());
+console.log(" Le nombre d'occurrence de 'a' est:", countAcaracter());
 module.exports = countAcaracter;
